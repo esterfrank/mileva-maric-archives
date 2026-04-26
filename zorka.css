@@ -1,0 +1,10 @@
+.titulo, h2, h3{
+    text-align: center;
+}
+
+.container img {
+    float: left;       /* faz o texto envolver */
+    width: 350px;      /* tamanho da imagem */
+    margin-right: 15px; /* espaço entre imagem e texto */
+    margin-bottom: 10px; /* espaço embaixo */
+}
