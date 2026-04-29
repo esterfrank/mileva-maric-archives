@@ -1,10 +1,77 @@
-.titulo, h2, h3{
-    text-align: center;
+body {
+  background-color: #1f2937;
+  margin: 0;
 }
 
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+
+  background-color: #f9fafb;
+
+  border-radius: 12px;
+
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.container p {
+  font-size: 18px;
+
+  line-height: 1.7;
+
+  text-align: justify;
+
+  margin-bottom: 18px;
+
+  text-indent: 30px;
+
+  color: #1f2937;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #f9fafb;
+}
+
+.titulo {
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.titulo::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: #f9fafb;;
+  margin: 12px auto 0 auto;
+  border-radius: 2px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+
 .container img {
-    float: left;       /* faz o texto envolver */
-    width: 350px;      /* tamanho da imagem */
-    margin-right: 15px; /* espaço entre imagem e texto */
-    margin-bottom: 10px; /* espaço embaixo */
+  float: left;
+
+  width: 220px;   /* controla o tamanho */
+  height: auto;   /* mantém proporção */
+
+  margin-right: 25px;
+  margin-bottom: 10px;
+
+  border-radius: 10px;
+
+  border: 3px solid #1f2937;
 }
